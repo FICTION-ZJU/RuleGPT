@@ -11,7 +11,7 @@ Installation
 
 Before you start, make sure you have installed the following packages:
 
-1. Follow the instructions of `LLaMA-Factory <https://github.com/hiyouga/LLaMA-Factory>`, and build the environment.
+1. Follow the instructions of `LLaMA-Factory <https://github.com/hiyouga/LLaMA-Factory>`__, and build the environment.
 2. Install these packages:
 
 ```

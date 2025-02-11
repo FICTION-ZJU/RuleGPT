@@ -1,4 +1,4 @@
-LLaMA-Factory
+RuleGPT
 =============
 
 This repository contains the implementation of RuleGPT from the paper "HORAE: A Domain-Agnostic Language for Automated Service Regulation". It consists of two main components: firstly, we have open-sourced the RuleGPT model weights on Hugging Face, which can be quickly deployed using this repository. Secondly, we have also released the our dataset (names and links are omitted due to double-blind restrictions) on Hugging Face🤗.
@@ -11,7 +11,7 @@ Installation
 
 Before you start, make sure you have installed the following packages:
 
-1. Follow the instructions of `LLaMA-Factory <https://github.com/hiyouga/LLaMA-Factory>`__, and build the environment.
+1. Follow the instructions of [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), and build the environment.
 2. Install these packages:
 
 ```
@@ -19,7 +19,7 @@ Before you start, make sure you have installed the following packages:
    pip install flash-attn --no-build-isolation
 ```
 
-3. If you want to use `FlashAttention-2 <https://github.com/Dao-AILab/flash-attention>`, make sure your CUDA is 11.6 and above.
+3. If you want to use [FlashAttention-2](https://github.com/Dao-AILab/flash-attention), make sure your CUDA is 11.6 and above.
 
 Data Preparation
 ----------------

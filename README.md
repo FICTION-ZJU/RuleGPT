@@ -1,9 +1,11 @@
-RuleGPT
+RuleGPT: A Fine-Tuned LLM for Modeling in Horae
 =============
 
-This repository contains the implementation of RuleGPT from the paper "HORAE: A Domain-Agnostic Language for Automated Service Regulation". It consists of two main components: firstly, we have open-sourced the RuleGPT model weights on Hugging Face, which can be quickly deployed using this repository. Secondly, we have also released the our dataset (names and links are omitted due to double-blind restrictions) on Hugging Face🤗.
+This repository contains the implementation of RuleGPT from the paper titled "HORAE: A Domain-Agnostic Language for Automated Service Regulation" submitted to IJCAI 2025 (AI4Tech). The repository instructs how one can quickly train and deploy RuleGPT.
 
-Here we provide details about the usage of scripts for supervised finetuning RuleGPT with [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
+Note: The dataset SRR-Eval for fine-tuning RuleGPT as well as the so-obtained model weights are also open-sourced; but the concrete links are omitted due to anonymous review.
+
+Below, we provide details about the usage of scripts for supervised fine-tuning RuleGPT with [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
 
 
 Installation
@@ -52,7 +54,7 @@ In `infer` folder, we provide code to either use your local model RuleGPT or oth
 Run `python infer_local.py` to get your RuleGPT results. Run `python infer_gpt.py` to get other models results.
 
 
-Conclusion
+Note
 ----------
 
-The above content is the simplest way to use LLaMA-Factory to train and use RuleGPT. Feel free to dive into the details by checking the official repo!
+The above instructions give a simple way to train and deploy RuleGPT via LLaMA-Factory. Feel free to dive into the details by checking the official repo!

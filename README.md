@@ -15,8 +15,8 @@ Before you start, make sure you have installed the following packages:
 2. Install these packages:
 
 ```
-   pip install deepspeed
-   pip install flash-attn --no-build-isolation
+pip install deepspeed
+pip install flash-attn --no-build-isolation
 ```
 
 3. If you want to use [FlashAttention-2](https://github.com/Dao-AILab/flash-attention), make sure your CUDA is 11.6 and above.
@@ -32,7 +32,7 @@ Training
 Execute the following training command:
 
 ```
-   llamafactory-cli train qwen2_5-7b-lora-sft.yaml
+llamafactory-cli train qwen2_5-7b-lora-sft.yaml
 ```
 
 and enjoy the training process. To make changes to your training, you can modify ``qwen2_5-7b-lora-sft.yaml``.
@@ -43,7 +43,7 @@ Merge LoRA
 Run the following command to perform the merging of LoRA adapters.
 
 ```
-   llamafactory-cli train qwen2_5-7b-merge-lora.yaml
+llamafactory-cli train qwen2_5-7b-merge-lora.yaml
 ```
 
 Inference

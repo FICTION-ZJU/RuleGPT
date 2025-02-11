@@ -3,7 +3,7 @@ LLaMA-Factory
 
 This repository contains the implementation of RuleGPT from the paper "HORAE: A Domain-Agnostic Language for Automated Service Regulation". It consists of two main components: firstly, we have open-sourced the RuleGPT model weights on Hugging Face, which can be quickly deployed using this repository. Secondly, we have also released the our dataset (names and links are omitted due to double-blind restrictions) on Hugging Face🤗.
 
-Here we provide details about the usage of scripts for supervised finetuning RuleGPT with `LLaMA-Factory <https://github.com/hiyouga/LLaMA-Factory>`.
+Here we provide details about the usage of scripts for supervised finetuning RuleGPT with [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
 
 
 Installation

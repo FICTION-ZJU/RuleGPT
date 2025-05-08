@@ -1,7 +1,7 @@
 RuleGPT: A Fine-Tuned LLM for Modeling in Horae
 =============
 
-This repository contains the implementation of RuleGPT from the paper titled "HORAE: A Domain-Agnostic Language for Automated Service Regulation" accepted in IJCAI 2025 (AI4Tech). The repository instructs how one can quickly train and deploy RuleGPT.
+This repository contains the implementation of RuleGPT from the paper titled "HORAE: A Domain-Agnostic Language for Automated Service Regulation" accepted by IJCAI 2025 (AI4Tech). The repository instructs how one can quickly train and deploy RuleGPT.
 
 We also open-source dataset [SRR-Eval](https://huggingface.co/datasets/Xfgll/SRR-Eval) for fine-tuning RuleGPT as well as the so-obtained [model weights](https://huggingface.co/Xfgll/RuleGPT).
 
